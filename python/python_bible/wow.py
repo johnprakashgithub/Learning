@@ -1,0 +1,6 @@
+name = input("who are you? ").strip().capitalize()
+color = input("what is the color of the sky? ").strip().lower()
+opposite = input ("what is the opposite of down? ").strip().lower()
+print("\n\n")
+print("{} blew {}!!!".format(name,opposite))
+print(":-) :) :) \n\n")
