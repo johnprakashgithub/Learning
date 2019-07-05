@@ -4,3 +4,7 @@
 # VS Code
 .code
 .vscode
+
+# hidden projects
+/simple_rest/
+/test_framework/
