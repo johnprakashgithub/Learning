@@ -1,6 +1,6 @@
-FROM node:4.6
+FROM node:10
 WORKDIR /app
 ADD . /app
-RUN npm install
+RUN npm upgrade && npm install
 EXPOSE 3000
 CMD npm start
