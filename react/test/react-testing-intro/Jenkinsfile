@@ -8,6 +8,7 @@ node {
  }
  stage('test') {
     nodejs(nodeJSInstallationName: 'nodejs') {
+    sh "cd react/test/react-testing-intro"
     sh 'npm install --old=-dev'
     sh 'npm test'
  }
